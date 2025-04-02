@@ -46,12 +46,6 @@ This model could not have been completed without their invaluable assistance. We
 For instructions on integrating the Tojinbo 3D model into the Hakoniwa Drone Simulator, please refer to [this guide](README-tojinbo.md).
 
 
-# Integration with PX4
-
-To integrate this drone simulator with PX4, the hakoniwa-px4sim repository is required. For detailed instructions on how to integrate with PX4, please read the documentation at the following link:
-
-https://github.com/toppers/hakoniwa-px4sim
-
 # Supported Environments
 
 - [X] Intel-based Mac
