@@ -1,5 +1,3 @@
-English ｜ [日本語](README-ja.md)
-
 This repository contains a drone simulator created with Unity that is compatible with PX4.
 
 ![image](images/tojinbo.png)
@@ -83,30 +81,30 @@ No specific Unity environment is required.
 Clone the repository as follows:
 
 ```
-git clone --recursive https://github.com/toppers/hakoniwa-unity-drone-model.git
+git clone --recursive https://github.com/meta0xflip/unity-drone-model.git
 ```
 
 Once the cloning is complete, navigate to the directory as follows:
 
 ```
-cd hakoniwa-unity-drone-model/
+cd unity-drone-model/
 ```
 
 Download the application suitable for your environment from the following site:
 
-https://github.com/toppers/hakoniwa-unity-drone-model/releases
+https://github.com/meta0xflip/unity-drone-model/releases
 
-Unzip the downloaded file under the `hakoniwa-unity-drone-model` directory.
+Unzip the downloaded file under the `unity-drone-model` directory.
 
 The directory structure will be as follows:
 
 ```
-hakoniwa-unity-drone-model/DroneApp<OS>
+unity-drone-model/DroneApp<OS>
 ```
 
 ### Launching the Unity Application
 
-Run the following command directly under the `hakoniwa-unity-drone-model` directory:
+Run the following command directly under the `unity-drone-model` directory:
 
 ```
 bash ./plugin/activate_app.bash DroneApp<OS>
@@ -130,13 +128,13 @@ If successful, the Unity application will launch.
 Clone the repository as follows:
 
 ```
-git clone --recursive https://github.com/toppers/hakoniwa-unity-drone-model.git
+git clone --recursive https://github.com/meta0xflip/unity-drone-model.git
 ```
 
 Once the cloning is complete, navigate to the directory as follows:
 
 ```
-cd hakoniwa-unity-drone-model/
+cd unity-drone-model/
 ```
 
 Then, install the necessary Unity modules.
@@ -159,7 +157,7 @@ Open the project in Unity Hub.
 
 Note: Ensure that the Unity Editor version matches your CPU architecture.
 
-Target folder: `hakoniwa-unity-drone-model\plugin\plugin-srcs`
+Target folder: `unity-drone-model\plugin\plugin-srcs`
 
 If a message about "Opening Project in Non-Matching Editor Installation" appears, click "Continue."
 
@@ -411,42 +409,3 @@ The output of custom.json is as follows:
   ]
 }
 ```
-
-# Community and Support
-
-Questions and discussions about this project are conducted on the [Hakoniwa Community Forum](https://github.com/toppers/hakoniwa/discussions). Here, you can resolve doubts about the project, share ideas, and provide feedback. The latest information and updates about the project are also shared here.
-
-If you have questions, suggestions, or want to discuss issues faced by other users, feel free to post [here](https://github.com/toppers/hakoniwa/discussions).
-
-# Repository Contents and License
-
-Regarding the content
-
- of this repository, if the license is specified in each file, follow that license. For content that is not explicitly mentioned, it is published under the [TOPPERS License](https://www.toppers.jp/license.html).
-
-The TOPPERS License is an open-source license for projects, outlining conditions for software use, modification, and distribution. For details, refer to the link above.
-
-# Contribution Guidelines
-
-Thank you for your interest in contributing to this project. Various forms of contributions are welcome. Below are guidelines on how to contribute to the project.
-
-## Reporting Issues
-
-- Report bugs and propose new features through GitHub Issues.
-- Before creating an issue, check if a similar issue already exists.
-- Provide as much information as possible when creating an issue. This includes reproduction steps, expected behavior, actual behavior, and the environment used.
-
-## Pull Requests
-
-- Contribute code changes such as feature additions and bug fixes through pull requests.
-- For major changes or new features, it is recommended to discuss them in a related issue beforehand.
-- Ensure consistent coding style and conventions by following the existing code style.
-
-## Communication
-
-- Discuss and ask questions about the project in [Discussions](https://github.com/toppers/hakoniwa/discussions).
-- Communicate respectfully with other contributors.
-
-## Other Contributions
-
-- Improvements to documentation and translations, among other non-code contributions, are also welcome.
